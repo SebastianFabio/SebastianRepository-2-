@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>United States Cities</title>
+    <style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
   </head>
   <body>
     <h1>Cities of America</h1>
@@ -37,7 +53,7 @@
 	<p><a href="https://www.baltimorecity.gov/">City of Baltimore</a></p>
 	
 	
-	<h2>New York</h2>
+	<h2>New York City</h2>
 	<img src="NewYork.jpg" alt="a picture of the New York skyline" width="500"> <!-- I chose JPEG for this image because I don't need to preserve a high quality image -->
 	<p>New York City, often referred to as NYC, is the most populous city in the United States, known for its iconic skyline, diverse<br>cultural landscape, and status as a global center for finance, art, and entertainment, encompassing five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island.</p>
 	<p><a href="https://www.nyc.gov/">City of New York</a></p>
@@ -47,6 +63,37 @@
 	<img src="LosAngeles.jpg" alt="a picture of the Los Angeles skyline" width="500"> <!-- I chose JPEG for this image because I don't need to preserve a high quality image -->
 	<p>Los Angeles, often abbreviated as L.A., is the largest city in California and the second most populous city in the<br>United States, recognized as a global cultural, financial, and commercial center, famed for its entertainment industry, diverse population, and Mediterranean climate.</p>
 	<p><a href="https://lacity.gov/">City of Los Angeles</a></p>
-	
+	<table>
+         <tr>
+          <th>City</th>
+          <th>Population</th>
+          <th>State</th>
+         </tr>
+         <tr>
+          <td>Memphis</td>
+          <td>621,056</td>
+          <td>Tennessee</td>
+         </tr>
+         <tr>
+          <td>Chicago</td>
+          <td>2.665 million</td>
+          <td>Illinois</td>
+         </tr>
+         <tr>
+          <td>Baltimore</td>
+          <td>569,931</td>
+          <td>Maryland</td>
+         </tr>
+         <tr>
+          <td>New York City</td>
+          <td>8.336 million</td>
+          <td>New York</td>
+         </tr>
+         <tr>
+          <td>Los Angeles</td>
+          <td>3.822 million</td>
+          <td>California</td>
+         </tr>
+        </table>
   </body>
 </html>
