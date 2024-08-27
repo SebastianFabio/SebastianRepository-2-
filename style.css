@@ -1,17 +1,13 @@
 h1{
 	color: red;
-	border-style: double;
-	border-color: red;
-	border-width: 20px;
+	border: 20px double red;
 	background: yellow;
 }
 
 h2{
 	color: white;
-	border-style: double;
-	border-color: black;
+	border: 15px double black;
 	background: gray;
-	border-width: 15px;
 }
 
 .description{
